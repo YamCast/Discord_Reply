@@ -1,0 +1,311 @@
+.barraIzquierda {
+    min-height: 0px;
+    min-width: 72px;
+    overflow: auto;
+}
+
+.barraIzquierda::-webkit-scrollbar {
+    width: 1px;
+}
+
+.linea {
+    width: 6px;
+    height: 50%;
+    border-radius: 10px;
+    margin: 0px;
+    background-color: transparent;
+}
+
+
+.cajaIconos {
+    width: 100%;
+    height: 55px;
+    display: flex;
+    column-gap: 3px;
+    align-items: center;
+}
+
+.cajaIconos:hover .linea {
+    background-color: aliceblue;
+}
+
+.boton {
+    background-color: blueviolet;
+    border-radius: 40%;
+    align-self: center;
+}
+
+/* para icono y bloques discord*/
+.btnicono {
+    height: 50px;
+    width: 50px;
+    background-image: url("images/icono.png");
+    border-radius: 50%;
+    background-position: 50% 50%;
+    border: none;
+    transition: 0.3s;
+}
+
+.espIcono {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+
+}
+
+.entreEsp {
+    height: 2px;
+    width: 32px;
+    background-color: #36393f;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+/* fin icono ciscord*/
+
+
+.btn1 {
+    background-image: url("images/servidores/server1.png");
+    width: 50px;
+    height: 50px;
+    background-position: 50% 50%;
+    border-radius: 50%;
+    border: none;
+    border-color: #202225;
+    transition: 0.3s;
+}
+
+.btn2 {
+    background-image: url("images/servidores/server2.png");
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-position: 20% 10%;
+    border-radius: 50%;
+    transition: 0.3s;
+    border-color: #202225;
+}
+
+.btn3 {
+    background-image: url("images/servidores/server3.png");
+    background-position: 50% 50%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    transition: 0.3s;
+    border-color: #202225;
+}
+
+.btn4 {
+    background-image: url("images/servidores/server4.png");
+    background-position: 80% 50%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    transition: 0.3s;
+    border-color: #202225;
+}
+
+.anadir {
+    background-image: url("images/servidores/plus.png");
+    background-position: 50% 50%;
+    width: 50px;
+    border: none;
+    height: 50px;
+    border-color: #202225;
+    border-radius: 50%;
+    transition: 0.3s;
+    transition: 0.3s;
+}
+
+.explora {
+    background-image: url("images/servidores/comp.png");
+    background-position: 50% 50%;
+    width: 50px;
+    border: none;
+    height: 50px;
+    border-radius: 50%;
+    transition: 0.3s;
+    transition: 0.3s;
+    border-color: #202225;
+}
+
+.desk {
+    background-image: url("images/servidores/down.png");
+    width: 50px;
+    height: 50px;
+    background-position: 50% 50%;
+    border: none;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.hast {
+    background-position: 50% 50%;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    border: none;
+    align-items: center;
+    background-image: url("images/superior/hiloa.PNG");
+}
+
+.noti{
+    background-position: 50% 50%;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    border: none;
+    align-items: center;
+    background-image: url("images/superior/notifica.PNG");
+}
+
+.pino{
+    background-position: 50% 50%;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    border: none;
+    align-items: center;
+    background-image: url("images/superior/pin.PNG");
+}
+
+.pepo{
+    background-position: 50% 50%;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    border: none;
+    align-items: center;
+    background-image: url("images/superior/peop.PNG");
+}
+
+.eso{
+    background-position: 50% 50%;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    border: none;
+    align-items: center;
+    background-image: url("images/superior/eso.PNG");
+}
+
+.inc{
+    background-position: 50% 50%;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    border: none;
+    align-items: center;
+    background-image: url("images/superior/inco.PNG");
+}
+
+
+
+.audio{
+    background-position: 50% 50%;
+    width: 24px;
+    height: 24px;
+    align-self: center;
+    border: none;
+    background-image: url("images/micro.png");
+}
+
+.olle{
+    background-position: 50% 50%;
+    width: 24px;
+    height: 24px;
+    align-self: center;
+    border: none;
+    background-image: url("images/bajo/escucha.PNG");
+}
+
+.esho{
+    background-position: 50% 50%;
+    width: 24px;
+    height: 24px;
+    align-self: center;
+    border: none;
+    background-image: url("images/bajo/esho.PNG");
+}
+
+
+/*fin botones*/
+.imagenesziquierda {
+    display: table;
+    align-items: center;
+    max-width: 3px;
+    border: none;
+}
+
+
+/*HOVERS- ayuda no sé como quitar renundancia*/
+
+.btnicono:hover {
+    background-image: url("images/icono2.png");
+    border-radius: 30%;
+    cursor: hand;
+}
+
+.btn1:hover {
+    border-radius: 30%;
+    cursor: hand;
+}
+
+.btn2:hover {
+    border-radius: 30%;
+    cursor: hand;
+}
+
+.btn3:hover {
+    border-radius: 30%;
+    cursor: hand;
+}
+
+.btn4:hover {
+    border-radius: 30%;
+    cursor: hand;
+}
+
+.anadir:hover {
+    border-radius: 30%;
+    cursor: hand;
+    background-image: url("images/servidores/plusb.png");
+}
+
+.explora:hover {
+    border-radius: 30%;
+    cursor: hand;
+    background-image: url("images/servidores/compb.png");
+}
+
+.desk:hover {
+    border-radius: 30%;
+    cursor: hand;
+    background-image: url("images/servidores/downb.png");
+}
+
+
+.hast:hover {
+    background-position: 50% 50%;
+    background-image: url("images/superior/hilob.PNG");
+}
+
+.noti:hover {
+    background-position: 50% 50%;
+    background-image: url("images/superior/notificab.PNG");
+}
+
+.pino:hover{
+    background-position: 50% 50%;
+    background-image: url("images/superior/pinb.PNG");
+}
+
+.pepo:hover{
+    background-position: 50% 50%;
+    background-image: url("images/superior/peopb.PNG");
+}
+/*FIN HOVERS*/

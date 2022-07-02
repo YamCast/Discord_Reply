@@ -1,0 +1,79 @@
+.servidores {
+    height: 10%;
+    width: 100%;
+    border-radius: 30%;
+}
+
+.usuarioPro {
+    width: 90%;
+    height: fit-content;
+    padding: 4px;
+    padding-bottom: 10px;
+}
+
+
+
+.usuariosdesconectados {
+    background-color: none;
+    min-width: 240px;
+    height: fit-content;
+    padding: 4px;
+} 
+
+.barraDerecha {
+    flex: 1;
+    height: 95vh;
+    margin: 0%;
+    min-width: 230px;
+    max-width: 230px;
+    background-color: #2f3136;
+    color: aliceblue;
+    overflow: hidden;
+    padding: 5px;
+    padding-right: 0px;
+    gap:10px;
+    justify-content: space-between;
+    padding-right: 5px;
+    margin-right: 2px;
+}
+
+/*Hovers y otros*/
+
+
+.barraDerecha:hover{
+    overflow: hidden scroll;
+    margin-right: 2px;
+}
+
+.barraDerecha::-webkit-scrollbar {
+    width: 5px;
+    max-height: 20px;
+}
+
+.barraDerecha::-webkit-scrollbar-thumb {
+    background-color: #202225;
+    border-radius: 20px;
+}
+
+
+.conteneBarraDerecha {
+    gap:5px;
+    display: flex;
+    height: 42px;
+    width: 244px;
+    padding: 3px;
+    color:rgb(206, 57, 82);
+    align-items: center;
+    opacity: 50%;
+}
+
+
+.conteneBarraDerecha:hover  {
+    cursor: pointer;
+    background-color: #3c3e45;
+    opacity: 100%;
+}
+
+.barraDerecha:hover {
+    opacity: 100%;
+}
